@@ -9,8 +9,8 @@ const client = new Client(config);
 const transporter = nodemailer.createTransport({
   service: 'Gmail', // Use your email service provider
   auth: {
-    user: 'thekiet.hoyo@gmail.com', // Your email address
-    pass: 'Kiethongngu@1' // Your password
+    user: 'thekiet.contact@gmail.com', // Your email address
+    pass: 'yegq nvyu qzrb ecry' // Your password
   }
 });
 
@@ -26,7 +26,7 @@ client.subscribe('sendMail', async function({ task, taskService }) {
     for (const email of emails) {
       // Define the email options
       const mailOptions = {
-        from: '21522427@gm.uit.edu.vn', // Sender address
+        from: '21522263@gm.uit.edu.vn', // Sender address
         to: email.trim(), // Individual recipient email address
         subject: task.variables.get('sub').toString(), // Subject line
         text: task.variables.get('txt').toString() // Plain text body
