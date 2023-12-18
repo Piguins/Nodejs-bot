@@ -9,8 +9,8 @@ const client = new Client(config);
 const transporter = nodemailer.createTransport({
   service: 'Gmail', // Use your email service provider
   auth: {
-    user: '21522427@gm.uit.edu.vn', // Your email address
-    pass: 'Yennhi10@' // Your password
+    user: 'thekiet.hoyo@gmail.com', // Your email address
+    pass: 'Kiethongngu@1' // Your password
   }
 });
 
