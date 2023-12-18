@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "label": "Bill of lading code",
+      "type": "textfield",
+      "id": "Field_1dpf9rb",
+      "key": "billladingcode",
+      "validate": {
+        "required": true
+      },
+      "layout": {
+        "row": "Row_0x03ns3"
+      }
+    },
+    {
+      "label": "Name of product",
+      "type": "textfield",
+      "id": "Field_0hrb516",
+      "key": "productname",
+      "validate": {
+        "required": true
+      },
+      "layout": {
+        "row": "Row_05087t5"
+      }
+    },
+    {
+      "label": "Quantity of product",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0zdkl9t",
+        "columns": null
+      },
+      "id": "Field_0z39mqg",
+      "key": "quantity"
+    },
+    {
+      "label": "Price of product",
+      "type": "textfield",
+      "id": "Field_10umpo1",
+      "key": "price",
+      "layout": {
+        "row": "Row_0zdkl9t"
+      }
+    },
+    {
+      "label": "Customer's name",
+      "type": "textfield",
+      "id": "Field_11ijcs1",
+      "key": "customername",
+      "validate": {
+        "required": true
+      },
+      "layout": {
+        "row": "Row_1lj097r"
+      }
+    },
+    {
+      "label": "Customer's address",
+      "type": "textfield",
+      "id": "Field_0muakqy",
+      "key": "customeraddress",
+      "validate": {
+        "required": true
+      },
+      "layout": {
+        "row": "Row_16pur5l"
+      }
+    },
+    {
+      "label": "Customer's phone number",
+      "type": "textfield",
+      "id": "Field_00v2egd",
+      "key": "customerphone",
+      "validate": {
+        "required": true
+      },
+      "layout": {
+        "row": "Row_1mi4q11"
+      }
+    },
+    {
+      "label": "Delivery method",
+      "type": "textfield",
+      "id": "Field_19h9l1d",
+      "key": "deliverymethod",
+      "validate": {
+        "required": true
+      },
+      "layout": {
+        "row": "Row_1ilfup3"
+      }
+    },
+    {
+      "label": "Delivery date",
+      "type": "textfield",
+      "id": "Field_1pmv38o",
+      "key": "deliverydate",
+      "validate": {
+        "required": true
+      },
+      "layout": {
+        "row": "Row_0c7y312"
+      }
+    },
+    {
+      "label": "The payment amount",
+      "type": "textfield",
+      "id": "Field_0nkoqt2",
+      "key": "paymentamount",
+      "validate": {
+        "required": true
+      },
+      "layout": {
+        "row": "Row_01dca61"
+      }
+    }
+  ],
+  "type": "default",
+  "id": "ExportproductFormId",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.11.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.18.0",
+  "schemaVersion": 8
+}

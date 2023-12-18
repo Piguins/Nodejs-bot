@@ -1,0 +1,56 @@
+{
+  "components": [
+    {
+      "label": "Check date",
+      "type": "textfield",
+      "id": "Field_01tful2",
+      "key": "date",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Name of the checker",
+      "type": "textfield",
+      "id": "Field_0ttx030",
+      "key": "checkername",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Name of the product",
+      "type": "textfield",
+      "id": "Field_1q8bhom",
+      "key": "productname",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Yes",
+          "value": "true"
+        },
+        {
+          "label": "No",
+          "value": "false"
+        }
+      ],
+      "label": "Quantity of product",
+      "type": "radio",
+      "id": "Field_0i02jff",
+      "key": "quantity"
+    }
+  ],
+  "type": "default",
+  "id": "Form_1mqqs3u",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.9.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.18.0",
+  "schemaVersion": 7
+}

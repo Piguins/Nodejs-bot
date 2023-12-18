@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "camunda-external-task-client-js": "^3.0.0",
+    "xlsx-populate": "^1.21.0"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25"
+  }
+}
